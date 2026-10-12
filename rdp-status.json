@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "xyrdp-samp-2",
+  "active": true,
+  "hostname": "rdpfree-3",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
     "ram_gb": 16.0,
-    "cpu_threads": 4,
-    "disk_free_gb": 79.5
+    "disk_free_gb": 82.1,
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-12T08:49:53Z",
-  "expires_at": "2026-10-12T14:44:53Z",
+  "started_at": "2026-10-12T09:48:08Z",
+  "expires_at": "2026-10-12T15:43:08Z",
   "duration_menit": 355,
-  "run_id": "38225980445",
+  "run_id": "38232199535",
   "run_attempt": "1",
-  "run_number": "2",
-  "run_url": "https://github.com/Dhafin99/hihi/actions/runs/38225980445",
+  "run_number": "3",
+  "run_url": "https://github.com/Dhafin99/hihi/actions/runs/38232199535",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -40,91 +40,18 @@
   },
   "akses": {
     "tailscale": {
-      "status": "ok",
+      "hostname": "rdpfree-3",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
+      "magicdns": "rdpfree-3.tail95de51.ts.net.",
+      "status": "ok",
+      "ip": "100.114.214.115"
     },
     "mode": "tailscale"
   },
   "media": {
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "wallpaper": "xyverse_configured_for_user_logon",
+    "microphone": "rdp_capture_enabled",
     "audio_output": "rdp_playback_enabled",
-    "microphone": "rdp_capture_enabled"
-  },
-  "storage": {
-    "boost": "ok",
-    "before_gb": 79.35,
-    "after_gb": 103.9,
-    "gained_gb": 24.55,
-    "estimated_freed_gb": 19,
-    "drives": [
-      {
-        "free_gb": 103.9,
-        "size_gb": 255.45,
-        "letter": "C",
-        "used_gb": 151.55
-      },
-      {
-        "free_gb": 219.88,
-        "size_gb": 219.98,
-        "letter": "D",
-        "used_gb": 0.11
-      }
-    ],
-    "game_dir": "D:\\Games (disarankan untuk GTA)",
-    "note": "Storage boost selesai. Android/Haskell/CodeQL/dotnet lama & cache dibersihkan. Sisa 70GB -> bisa jadi 110-140GB free."
-  },
-  "win10": {
-    "look": "ok",
-    "badge": "ok",
-    "wallpaper": "ok",
-    "search": "ok",
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "note": "Tampilan Windows 10 (UI Windows Server 2022 = kernel/UI Windows 10 21H2)"
-  },
-  "samp": {
-    "directx": "verified_x86_x64",
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-    "samp_installed": false,
-    "netfx3": "Enabled",
-    "vcredist": "verified_x86_x64_and_2013_x86",
-    "status": "dependencies_ready",
-    "play_tested": false,
-    "directplay": "Enabled",
-    "gta_installed": false
-  },
-  "games": {
-    "minecraft_java": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "samp": {
-      "game_dir": null,
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-      "samp_installed": false,
-      "gta_installed": false,
-      "status": "dependencies_ready"
-    },
-    "roblox": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "minecraft_bedrock": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    }
-  },
-  "game_environment": {
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "runner": "windows-2022",
-    "play_tested": false,
-    "windows_server": true,
-    "hypervisor_present": true
-  },
-  "heartbeat_at": "2026-10-12T09:45:03.7061662Z",
-  "stopped_at": "2026-10-12T09:46:02Z"
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end."
+  }
 }
