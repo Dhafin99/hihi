@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "xyrdp-samp-2",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
@@ -40,11 +40,12 @@
   },
   "akses": {
     "tailscale": {
-      "hostname": "xyrdp-samp-2",
-      "magicdns": "xyrdp-samp-2.tail95de51.ts.net.",
-      "ip": "100.120.220.89",
       "status": "ok",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     },
     "mode": "tailscale"
   },
@@ -124,5 +125,6 @@
     "windows_server": true,
     "hypervisor_present": true
   },
-  "heartbeat_at": "2026-10-12T09:45:03.7061662Z"
+  "heartbeat_at": "2026-10-12T09:45:03.7061662Z",
+  "stopped_at": "2026-10-12T09:46:02Z"
 }
